@@ -1,6 +1,6 @@
-name: provider-xyz
+name: provider-uptime-kuma
 runtime: nodejs
 plugins:
   providers:
-    - name: xyz
+    - name: uptime-kuma
       path: ../../bin

@@ -25,7 +25,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	xyz "github.com/pulumi/pulumi-xyz/provider"
+	uptime-kuma "github.com/sirateek/pulumi-uptime-kuma/provider"
 )
 
 func TestRandomCreate(t *testing.T) {
@@ -52,5 +52,5 @@ func urn(typ string) resource.URN {
 
 // Create a test server.
 func provider() integration.Server {
-	return integration.NewServer(xyz.Name, semver.MustParse("1.0.0"), xyz.Provider())
+	return integration.NewServer(uptime-kuma.Name, semver.MustParse("1.0.0"), uptime-kuma.Provider())
 }

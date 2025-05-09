@@ -1,10 +1,10 @@
-PROJECT_NAME := Pulumi Xyz Resource Provider
+PROJECT_NAME := Pulumi uptime-kuma Resource Provider
 
-PACK             := xyz
+PACK             := uptime-kuma
 PACKDIR          := sdk
-PROJECT          := github.com/pulumi/pulumi-xyz
-NODE_MODULE_NAME := @abc/xyz
-NUGET_PKG_NAME   := Abc.Xyz
+PROJECT          := github.com/sirateek/pulumi-uptime-kuma
+NODE_MODULE_NAME := @sirateek/uptime-kuma
+NUGET_PKG_NAME   := sirateek.uptime-kuma
 
 PROVIDER        := pulumi-resource-${PACK}
 VERSION         ?= $(shell pulumictl get version)

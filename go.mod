@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-xyz
+module github.com/sirateek/pulumi-uptime-kuma
 
 go 1.24
 

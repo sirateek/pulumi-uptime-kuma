@@ -1,4 +1,4 @@
-module provider-xyz
+module provider-uptime-kuma
 
 go 1.23.0
 

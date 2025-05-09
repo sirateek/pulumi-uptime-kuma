@@ -1,17 +1,17 @@
-name: provider-xyz
+name: provider-uptime-kuma
 runtime: yaml
 plugins:
   providers:
-    - name: xyz
+    - name: uptime-kuma
       path: ../../bin
 
 resources:
   myRandomResource:
-    type: xyz:Random
+    type: uptime-kuma:Random
     properties:
       length: 24
   myRandomComponent:
-    type: xyz:RandomComponent
+    type: uptime-kuma:RandomComponent
     properties:
       length: 24
 

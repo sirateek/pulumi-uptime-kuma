@@ -1,7 +1,7 @@
 import * as pulumi from "@pulumi/pulumi";
-import * as xyz from "@pulumi/xyz";
+import * as uptime-kuma from "@pulumi/uptime-kuma";
 
-const myRandomResource = new xyz.Random("myRandomResource", {length: 24});
+const myRandomResource = new uptime-kuma.Random("myRandomResource", {length: 24});
 export const output = {
     value: myRandomResource.result,
 };
